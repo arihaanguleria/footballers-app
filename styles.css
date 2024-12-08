@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #4a4a4a;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footballers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.footballer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.footballer:hover {
+    transform: scale(1.05);
+}
+
+.footballer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.footballer h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.footballer p {
+    margin: 5px 0;
+}
+
+h2 {
+    color: #4a90e2;
+    margin: 10px 0;
+}
+
+p {
+    color: #666;
+    margin: 5px 0;
+}
